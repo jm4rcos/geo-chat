@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #000;
+  background-color: #70cdde;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --border-color: #000;
+
+  --title: #000;
+  --text: #5a534c;
+
+  --background: #fff1e8;
+  --foreground: #ffe4e1;
+  --danger: #ff5052;
+  --accent: #70cdde;
+  --success: #6cbd45;
+  --warning: #ffdc02;
+  --info: #7189fe;
+  --pink: #ff69b4;
+  --primary: #ffa07a;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2 h3,
+h4,
+h5,
+h6 {
+  font-family: "Lexend", sans-serif;
+  font-weight: 700;
+  color: var(--title);
+}
+
+p,
+a {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+  color: var(--text);
+  margin-top: 0.25rem;
+}
