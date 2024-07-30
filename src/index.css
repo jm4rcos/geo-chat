@@ -21,6 +21,8 @@
   --title: #000;
   --text: #5a534c;
 
+  --primary: #ffa07a;
+  --secondary: #ffa07a;
   --background: #fff1e8;
   --foreground: #ffe4e1;
   --danger: #ff5052;
@@ -29,7 +31,6 @@
   --warning: #ffdc02;
   --info: #7189fe;
   --pink: #ff69b4;
-  --primary: #ffa07a;
 }
 
 * {

@@ -2,6 +2,7 @@ import { PlusIcon } from "lucide-react";
 import { Search } from "./ui/search";
 import { UserInfo } from "./user-info";
 import { MessagesContainer } from "./messages-container";
+import { Button } from "./ui/button";
 
 export const Chat = () => {
   return (
@@ -9,9 +10,9 @@ export const Chat = () => {
       <UserInfo />
       <div className="flex px-4 items-center justify-between gap-2">
         <Search />
-        <button className="bg-[var(--warning)] hover:bg-[#5974fc] ease-in-out duration-200 p-2 rounded-full border-2 border-black shadow-button">
+        <Button>
           <PlusIcon />
-        </button>
+        </Button>
       </div>
       <MessagesContainer />
     </div>

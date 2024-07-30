@@ -17,7 +17,7 @@ export const Conversation = () => {
         <div className="border-2 border-black cursor-pointer bg-pink hover:bg-[#5974fc] ease-in-out duration-200 p-2 rounded-full">
           <PaperclipIcon className="text-black h-5 w-5" />
         </div>
-        <div className="flex w-full items-center justify-between gap-2 border-2 border-black p-1 rounded-full">
+        <div className="flex w-full bg-white items-center justify-between gap-2 border-2 border-black p-1 rounded-full">
           <div className="cursor-pointer border-2 border-black bg-accent p-2 rounded-full">
             <SmileIcon className="text-black h-5 w-5" />
           </div>

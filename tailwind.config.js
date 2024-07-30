@@ -16,6 +16,7 @@ export default {
       },
       colors: {
         primary: "var(--primary)",
+        secondary: "var(--secondary)",
         default: "var(--background)",
         foreground: "var(--foreground)",
         danger: "var(--danger)",
@@ -67,6 +68,7 @@ export default {
     },
     borderColors: {
       default: "#000",
+      primary: "var(--primary)",
       foreground: "var(--foreground)",
       danger: "var(--danger)",
       accent: "var(--accent)",

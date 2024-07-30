@@ -2,7 +2,7 @@ import { SearchIcon } from "lucide-react";
 
 export const Search = () => {
   return (
-    <div className="flex w-full items-center justify-between gap-2 border-2 border-black p-1 rounded-full">
+    <div className="flex w-full bg-white items-center justify-between gap-2 border-2 border-black p-1 rounded-full">
       <input
         className="w-full bg-transparent pl-2 outline-none font-medium font-urbanist"
         placeholder="Procurar..."
